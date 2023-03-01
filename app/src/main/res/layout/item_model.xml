@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_margin="10dp"
+        android:padding="10dp"
         android:layout_width="408dp"
         android:layout_height="138dp"
         android:orientation="horizontal"
@@ -15,6 +15,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:padding="5dp"
             android:id="@+id/titleTV"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -22,6 +23,7 @@
             android:text="TextView" />
 
         <TextView
+            android:padding="5dp"
             android:id="@+id/descriptionTV"
             android:layout_width="201dp"
             android:layout_height="match_parent"
@@ -29,6 +31,7 @@
             android:text="TextView" />
 
         <LinearLayout
+            android:padding="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
